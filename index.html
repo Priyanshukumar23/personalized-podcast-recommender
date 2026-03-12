@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1>Welcome to image-generation Website</h1>
+    </nav>
+
+    <!-- Background Section -->
+    <div class="background">
+        <div class="overlay"></div>
+        
+        <div class="content">
+            
+            
+            <!-- Image Upload -->
+            <div class="upload-section">
+                <input type="file" id="imageInput" accept="image/*">
+                <img src="#" id="preview" alt="Uploaded Image">
+                <h2 id="result"></h2>
+            </div>
+
+            <!-- Text-to-Image Generation -->
+            <div class="image-generation">
+                <label for="inputText">Create an Image:</label> 
+                <input type="text" id="inputText">
+                <button id="btn">Generate</button>
+                <img id="generatedImage" src="" alt="Generated Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>End of the page</p>
+    </footer>
+</body>
+</html>

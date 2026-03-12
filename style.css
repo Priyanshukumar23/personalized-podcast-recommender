@@ -1,0 +1,107 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Background Section */
+.background {
+    position: relative;
+    background: url('./box6_image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dark Overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Content Inside */
+.content {
+    position: relative;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Upload Section */
+.upload-section {
+    margin-top: 20px;
+}
+
+.upload-section img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    display: none; /* Hide initially */
+}
+
+/* Image Generation Section */
+.image-generation {
+    margin-top: 30px;
+}
+
+#inputText {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+#generatedImage {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    display: none; /* Hide initially */
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+   
+}
